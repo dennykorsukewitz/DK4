@@ -15,4 +15,3 @@ Enjoy!
 Your [Denny Korsukéwitz](https://github.com/dennykorsukewitz)!
 
 [![Denny Korsukewitz's GitHub Stats](https://github-readme-stats.vercel.app/api?username=dennykorsukewitz&show_icons=true&include_all_commits=true)](https://github.com/dennykorsukewitz) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dennykorsukewitz&layout=compact)](https://github.com/dennykorsukewitz)
-
