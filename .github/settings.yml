@@ -76,22 +76,6 @@ labels:
     color: '#2ea7b2'
     description: Unit Test.
 
-  - name: OTRS 3
-    color: '#F781F3'
-    description: OTRS 3 Framework.
-
-  - name: OTRS 4
-    color: '#F781F3'
-    description: OTRS 4 Framework.
-
-  - name: OTRS 5
-    color: '#F781F3'
-    description: OTRS 5 Framework.
-
-  - name: OTRS 6
-    color: '#F781F3'
-    description: OTRS 6 Framework.
-
   - name: Clarification
     color: '#3399FF'
     description: Clarification of the current situation.
