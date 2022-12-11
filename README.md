@@ -6,7 +6,7 @@ Here you can find my open source projects.
 
 DK4[**Application**]-[**PackageName**]
 
-### OTRS
+### Znuny/OTRS
 
 [![DK4OTRS-QuickDelete](https://ghrs.vercel.app/api/pin/?username=dennykorsukewitz&repo=DK4OTRS-QuickDelete)](http://dennykorsukewitz.github.io/DK4OTRS-QuickDelete/) [![DK4OTRS-UBInventory](https://ghrs.vercel.app/api/pin/?username=dennykorsukewitz&repo=DK4OTRS-UBInventory)](http://dennykorsukewitz.github.io/DK4OTRS-UBInventory/) [![MRBS-OTRS](https://ghrs.vercel.app/api/pin/?username=dennykorsukewitz&repo=MRBS-OTRS)](http://dennykorsukewitz.github.io/MRBS-OTRS)
 
