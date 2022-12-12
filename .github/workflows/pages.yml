@@ -40,7 +40,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./package
+          source: ./DK4
           destination: ./_site
 
       - name: Upload artifact
