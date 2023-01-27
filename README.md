@@ -6,12 +6,16 @@ Here you can find my open source projects.
 
 DK4[**Application**]-[**PackageName**]
 
+<hr>
+
 ### Znuny/OTRS
 
-[![DK4Znuny-QuickDelete](https://ghrs.vercel.app/api/pin/?username=dennykorsukewitz&repo=DK4Znuny-QuickDelete&theme=transparent)](http://dennykorsukewitz.github.io/DK4Znuny-QuickDelete/) [![DK4OTRS-UBInventory](https://ghrs.vercel.app/api/pin/?username=dennykorsukewitz&repo=DK4OTRS-UBInventory&theme=transparent)](http://dennykorsukewitz.github.io/DK4OTRS-UBInventory/) [![MRBS-OTRS](https://ghrs.vercel.app/api/pin/?username=dennykorsukewitz&repo=MRBS-OTRS&theme=transparent)](http://dennykorsukewitz.github.io/MRBS-OTRS)
+<div class="github-repositories">
+    <a href="https://dennykorsukewitz.github.io/DK4Znuny-QuickDelete"><img src="https://ghrs.vercel.app/api/pin/?username=dennykorsukewitz&repo=DK4Znuny-QuickDelete&theme=transparent&title_color=0366d6&text_color=0366d6&icon_color=5DFF00&border_color=5DFF00" class="github-repository" alt="DK4Znuny-QuickDelete"></a><a href="https://dennykorsukewitz.github.io/DK4OTRS-UBInventory"><img src="https://ghrs.vercel.app/api/pin/?username=dennykorsukewitz&repo=DK4OTRS-UBInventory&theme=transparent&title_color=0366d6&text_color=0366d6&icon_color=5DFF00&border_color=5DFF00" class="github-repository" alt="DK4OTRS-UBInventory"></a><a href="https://dennykorsukewitz.github.io/MRBS-OTRS"><img src="https://ghrs.vercel.app/api/pin/?username=dennykorsukewitz&repo=MRBS-OTRS&theme=transparent&title_color=0366d6&text_color=0366d6&icon_color=5DFF00&border_color=5DFF00" class="github-repository" alt="MRBS-OTRS"></a>
+</div>
+
+<hr>
 
 Enjoy!
 
 Your [Denny Korsukéwitz](https://github.com/dennykorsukewitz)!
-
-[![Denny Korsukewitz's GitHub Stats](https://github-readme-stats.vercel.app/api?username=dennykorsukewitz&show_icons=true&include_all_commits=true&theme=transparent)](https://github.com/dennykorsukewitz) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dennykorsukewitz&layout=compact&theme=transparent)](https://github.com/dennykorsukewitz)

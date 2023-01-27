@@ -4,7 +4,7 @@ name: GitHub Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["dev"]
+    branches: ["dev", "update-dev"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -30,17 +30,28 @@ jobs:
         env:
           fetch-depth: "1"
         with:
+          path: repository
+
+      - name: Check out DK4
+        uses: actions/checkout@v3
+        env:
+          fetch-depth: "1"
+        with:
+          repository: dennykorsukewitz/DK4
+          ref: 'dev'
           path: DK4
+
+      - name: Prepare config
+        run: |
+          cp -R ${GITHUB_WORKSPACE}/DK4/.github/pages/* ${GITHUB_WORKSPACE}/repository/
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
-        with:
-          generator_config_file: 'DK4/.github/pages/_config.yml'
 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./DK4
+          source: ./repository
           destination: ./_site
 
       - name: Upload artifact
