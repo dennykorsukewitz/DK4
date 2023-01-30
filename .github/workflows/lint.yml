@@ -14,7 +14,6 @@ jobs:
         env:
           fetch-depth: "1"
         with:
-          ref: 'dev' # update-dev
           path: repository
 
       - name: Check out DK4
@@ -26,13 +25,13 @@ jobs:
           ref: 'dev' # update-dev
           path: DK4
 
-      - name: Prepare config
-        run: cp -R "${GITHUB_WORKSPACE}"/DK4/.github/linters/* "${GITHUB_WORKSPACE}"/repository/.github/linters
+      - name: Prepare linters config
+        run: cp -R "${GITHUB_WORKSPACE}"/DK4/.github/linters "${GITHUB_WORKSPACE}"/repository/.github/
 
       - name: Branch Name
         run: echo running on branch "${GITHUB_REF##*/}"
 
-      - name: linters
+      - name: Show linters config
         run: ls -alih "${GITHUB_WORKSPACE}/repository/.github/linters"
 
       - name: Lint Code Base

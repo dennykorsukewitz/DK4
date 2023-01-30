@@ -30,7 +30,6 @@ jobs:
         env:
           fetch-depth: "1"
         with:
-          ref: 'dev' # update-dev
           path: repository
 
       - name: Check out DK4
