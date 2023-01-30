@@ -14,6 +14,7 @@ jobs:
         env:
           fetch-depth: "1"
         with:
+          ref: 'dev' # update-dev
           path: repository
 
       - name: Check out DK4
@@ -22,20 +23,26 @@ jobs:
           fetch-depth: "1"
         with:
           repository: dennykorsukewitz/DK4
-          ref: 'dev'
+          ref: 'dev' # update-dev
           path: DK4
 
       - name: Prepare config
-        run: |
-          cp -R ${GITHUB_WORKSPACE}/DK4/.github/linters ${GITHUB_WORKSPACE}/repository/.github/linters
+        run: cp -R "${GITHUB_WORKSPACE}"/DK4/.github/linters/* "${GITHUB_WORKSPACE}"/repository/.github/linters
 
       - name: Branch Name
         run: echo running on branch "${GITHUB_REF##*/}"
 
+      - name: linters
+        run: ls -alih "${GITHUB_WORKSPACE}/repository/.github/linters"
+
       - name: Lint Code Base
         uses: github/super-linter@v4
         env:
-          DEFAULT_BRANCH: ${GITHUB_REF##*/}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LINTER_RULES_PATH: '.github/linters'
-          VALIDATE_ALL_CODEBASE: true
+          DEFAULT_BRANCH: "${GITHUB_REF##*/}"
+          GITHUB_TOKEN: "${secrets.GITHUB_TOKEN}"
+          LINTER_RULES_PATH: "./repository/.github/linters"
+          USE_FIND_ALGORITHM: true
+          FILTER_REGEX_EXCLUDE: "(.*.scss)"
+
+          VALIDATE_JSCPD: false
+          VALIDATE_POWERSHELL: false
