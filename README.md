@@ -8,7 +8,7 @@ DK4[**Application**]-[**PackageName**]
 
 <hr>
 
-### Znuny/OTRS
+### Znuny / OTRS
 
 <div class="github-repositories">
     <a href="https://dennykorsukewitz.github.io/DK4Znuny-VisualStudioCode"><img src="https://ghrs.vercel.app/api/pin/?username=dennykorsukewitz&repo=DK4Znuny-VisualStudioCode&theme=transparent&title_color=0366d6&text_color=0366d6&icon_color=5DFF00&border_color=5DFF00" class="github-repository" alt="DK4Znuny-VisualStudioCode"></a>
