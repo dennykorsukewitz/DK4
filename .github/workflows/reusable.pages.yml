@@ -2,12 +2,14 @@
 name: GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["dev", "update-dev"]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  workflow_call:
+    # inputs:
+    #   username:
+    #     required: true
+    #     type: string
+    # secrets:
+    #   token:
+    #     required: true
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
