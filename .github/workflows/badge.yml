@@ -11,18 +11,23 @@ on:
       gistID:
         required: true
         type: string
+        default: e2729bfd9b81d9c032ded617a3f924e7
       filename:
         required: true
         type: string
+        default: badge.json
+      label:
+        required: true
+        type: 'DK4'
+        default:
       message:
         required: true
         type: string
-      label:
-        required: true
-        type: string
+        default: 'Rocks'
       color:
         required: false
         type: string
+        default: 'green'
       valColorRange:
         required: false
         type: string
