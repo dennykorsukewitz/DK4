@@ -18,8 +18,8 @@ on:
         default: badge.json
       label:
         required: true
-        type: 'DK4'
-        default:
+        type: string
+        default: 'DK4'
       message:
         required: true
         type: string
