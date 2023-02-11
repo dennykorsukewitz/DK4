@@ -5,19 +5,19 @@ on:
   workflow_call:
     inputs:
       gistID:
-        required: true
+        required: false
         type: string
         default: e2729bfd9b81d9c032ded617a3f924e7
       filename:
-        required: true
+        required: false
         type: string
         default: 'badge.json'
       label:
-        required: true
+        required: false
         type: string
         default: 'DK4'
       message:
-        required: true
+        required: false
         type: string
         default: 'Rocks'
       color:
