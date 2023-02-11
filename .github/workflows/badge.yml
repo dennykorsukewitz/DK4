@@ -15,7 +15,7 @@ on:
       filename:
         required: true
         type: string
-        default: badge.json
+        default: 'badge.json'
       label:
         required: true
         type: string
