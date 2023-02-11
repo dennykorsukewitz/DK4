@@ -34,7 +34,7 @@ on:
 
 jobs:
   Badge:
-    name: Badge:MySQL
+    name: Badge
     runs-on: ubuntu-22.04 # ubuntu-latest
     steps:
       - name: Create Badge
