@@ -48,7 +48,7 @@ jobs:
           auth: ${{ secrets.GIST }}
           gistID: ${{ inputs.gistID }} # e2729bfd9b81d9c032ded617a3f924e7
           filename: ${{ inputs.filename }}
-          label: ${{ inputs.message }}
+          label: ${{ inputs.label }}
           message: ${{ inputs.message }}
           color: ${{ inputs.color }}
           valColorRange: ${{ inputs.valColorRange }}
