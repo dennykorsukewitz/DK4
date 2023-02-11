@@ -33,9 +33,9 @@ on:
       maxColorRange:
         required: false
         type: string
-    # secrets:
-    #   token:
-    #     required: false
+    secrets:
+      GIST:
+        required: true
 
 jobs:
   Badge:
