@@ -3,6 +3,9 @@ name: UnitTest
 
 on:
   workflow_call:
+    secrets:
+      GIST:
+        required: false
 
 jobs:
   UnitTest-MySQL:
