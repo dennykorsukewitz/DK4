@@ -35,7 +35,7 @@ on:
 
 jobs:
   Badge:
-    uses: dennykorsukewitz/DK4/.github/workflows/reusable.pages.yml@dev
+    uses: dennykorsukewitz/DK4/.github/workflows/reusable.badge.yml@dev
     with:
       secrets: inherit # pass all secrets
       gistID: e2729bfd9b81d9c032ded617a3f924e7
