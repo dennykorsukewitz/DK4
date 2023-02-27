@@ -16,4 +16,4 @@ jobs:
     steps:
       - run: gh workflow run --repo dennykorsukewitz/dennykorsukewitz.github.io pages.yml --ref dev
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
