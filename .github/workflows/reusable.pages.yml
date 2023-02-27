@@ -9,14 +9,17 @@ permissions: write-all
 # permissions:
 #   actions: write
 
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   Trigger-GitHub-Pages:
     name: Trigger GitHub Pages
     runs-on: ubuntu-latest
     steps:
       - run: gh workflow run --repo dennykorsukewitz/dennykorsukewitz.github.io pages.yml --ref dev
-        env:
-          GH_TOKEN: ${{ secrets.PAT }}
+        # env:
+        #   GH_TOKEN: ${{ secrets.PAT }}
         # env:
         #   GH_TOKEN: ${{ secrets.PAT }}
         # env:
