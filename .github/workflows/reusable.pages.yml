@@ -3,7 +3,9 @@ name: Trigger GitHub Pages
 
 on:
   workflow_call:
-
+    secrets:
+      PAT:
+        required: true
 jobs:
   Trigger-GitHub-Pages:
     name: Trigger GitHub Pages
