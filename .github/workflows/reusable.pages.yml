@@ -9,6 +9,6 @@ jobs:
     name: Trigger GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - run: gh workflow run --repo dennykorsukewitz/dennykorsukewitz.github.io pages.yml --ref main
+      - run: gh workflow run --repo dennykorsukewitz/dennykorsukewitz.github.io pages.yml --ref dev
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
