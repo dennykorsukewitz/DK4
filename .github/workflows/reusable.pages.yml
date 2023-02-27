@@ -8,6 +8,8 @@ jobs:
   Trigger-GitHub-Pages:
     name: Trigger GitHub Pages
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
     steps:
       - run: gh workflow run --repo dennykorsukewitz/dennykorsukewitz.github.io pages.yml --ref dev
         env:
