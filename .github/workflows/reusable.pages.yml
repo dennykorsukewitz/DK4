@@ -4,14 +4,15 @@ name: Trigger GitHub Pages
 on:
   workflow_call:
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions: write-all
+# permissions:
+#   actions: write
+
 jobs:
   Trigger-GitHub-Pages:
     name: Trigger GitHub Pages
     runs-on: ubuntu-latest
-    # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-    permissions: write-all
-    # permissions:
-    #   actions: write
     steps:
       - run: gh workflow run --repo dennykorsukewitz/dennykorsukewitz.github.io pages.yml --ref dev
         env:
