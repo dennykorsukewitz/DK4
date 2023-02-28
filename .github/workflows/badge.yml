@@ -38,7 +38,7 @@ on:
 
 jobs:
   Badge:
-    uses: dennykorsukewitz/DK4/.github/workflows/reusable.badge.yml@dev
+    uses: dennykorsukewitz/dennykorsukewitz/.github/workflows/reusable.badge.yml@dev
     secrets:
       GIST: ${{ secrets.GIST }}
     with:
